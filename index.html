@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section1">
+        <div class="sl">
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="item1 item">
+                            <h2>Новые поступления<br> в этом сезоне</h2>
+                            <div class="tx">
+                                <p>Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время
+                                    исследовать.</p>
+                                <a href=""><img src="./Кнопки.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item1 item">
+                            <h2>Что-то новенькое. <br> Мы заждались тебя.</h2>
+                            <div class="tx">
+                                <p>Надоело искать себя в сером городе? Настало время новых идей, свежих красок и вдохновения с Womazing!</p>
+                                <a href=""><img src="./Кнопки.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item1 item">
+                            <h2>Включай новый <br> сезон с WOMAZING</h2>
+                            <div class="tx">
+                                <p>Мы обновили ассортимент - легендарные коллекции и новинки от отечественных дизайнеров</p>
+                                <a href=""><img src="./Кнопки.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+        <div class="photo">
+            <div class="ph">
+                <div class="wrapph">
+                    <img src="./dmitriy-7DD6tfTKqS4-unsplash 1.png" alt="" class="mainp">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+
+    </script>
+</body>
+
+</html>
